@@ -19,7 +19,7 @@ sudo dnf install @gnome-desktop -y
 git clone https://github.com/ubuntu/gnome-shell-extension-appindicator.git
 meson gnome-shell-extension-appindicator /tmp/g-s-appindicators-build -y
 ninja -C /tmp/g-s-appindicators-build install -y
-gnome-extensions enable appindicatorsupport@rgcjonas.gmail.com
+gnome-extensions enable appindicatorsupport@rgcjonas.gmail.com -y
 
 
 
