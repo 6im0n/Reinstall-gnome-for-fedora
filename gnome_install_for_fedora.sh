@@ -12,9 +12,9 @@ echo -e '\033[0m'
 sleep 3s
 sudo dnf update -y
 sudo dnf upgrade -y
-sudo systemctl disable lightdm -y
+sudo systemctl disable lightdm
 sudo dnf install gdm -y
-sudo systemctl enable gdm -y
+sudo systemctl enable gdm 
 sudo dnf install @gnome-desktop -y
 echo -e "\e[32m        _____________________________________"
 echo -e "\e[32m        |             \e[33m                    \e[32m  |"
