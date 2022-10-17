@@ -1,4 +1,4 @@
-# Gnome for epitech install :spakles:
+# Gnome for epitech install ✨
 Script to reinstall gnome desktop graphic environement for dump of epitech fedora.
  
 last time tested: 
