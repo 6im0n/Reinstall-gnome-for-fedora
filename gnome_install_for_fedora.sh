@@ -15,7 +15,7 @@ sudo dnf upgrade -y
 sudo systemctl disable lightdm
 sudo dnf install gdm -y
 sudo systemctl enable gdm 
-sudo dnf install @gnome-desktop -y
+sudo dnf install @gnome-desktop --nogpgcheck -y
 echo -e "\e[32m        _____________________________________"
 echo -e "\e[32m        |             \e[33m                    \e[32m  |"
 echo -e "\e[32m        |              \e[33m                 \e[32m    |"
