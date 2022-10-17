@@ -15,6 +15,14 @@ sudo dnf upgrade -y
 sudo systemctl disable lightdm
 sudo dnf install gdm
 sudo dnf install @gnome-desktop
+
+git clone https://github.com/ubuntu/gnome-shell-extension-appindicator.git
+meson gnome-shell-extension-appindicator /tmp/g-s-appindicators-build
+ninja -C /tmp/g-s-appindicators-build install
+gnome-extensions enable appindicatorsupport@rgcjonas.gmail.com
+
+
+
 echo -e "\e[32m        _____________________________________"
 echo -e "\e[32m        |             \e[33m                    \e[32m  |"
 echo -e "\e[32m        |              \e[33m                 \e[32m    |"
