@@ -48,6 +48,17 @@ X-GNOME-AutoRestart=true
 NoDisplay=true
 ```
 
+<h2>extensions gnome : (WIP)</h2>
+
+https://extensions.gnome.org/extension/6/applications-menu/
+
+https://extensions.gnome.org/extension/615/appindicator-support/
+
+https://extensions.gnome.org/extension/906/sound-output-device-chooser/
+
+https://extensions.gnome.org/extension/1160/dash-to-panel/
+
+
 things to do :
 + add usefull gnome extensions
 + give idea
