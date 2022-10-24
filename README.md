@@ -17,6 +17,28 @@ your computeur will be restarted 15seconds after the installation success
 After next to the login script chose GNOME option to change desktop environement.
 ```
 
+<h2>after install</h2>
+:oui~1: **aprés l'install : **
+pour les buttons maximize et minimize: 
+```gsettings set org.gnome.desktop.wm.preferences button-layout ":minimize,maximize,close"```
+
+pour les icones sur le desktop:
+```sudo dnf install nemo```
+```sudo emacs ~/.config/autostart/nemo-autostart-with-gnome.desktop```
+ou nano :
+```sudo nano ~/.config/autostart/nemo-autostart-with-gnome.desktop```
+et copier coller : 
+```[Desktop Entry]
+Type=Application
+Name=Nemo
+Comment=Start Nemo desktop at log in
+Exec=nemo-desktop
+OnlyShowIn=GNOME;
+AutostartCondition=GSettings org.nemo.desktop show-desktop-icons
+X-GNOME-AutoRestart=true
+NoDisplay=true
+```
+
 things to do :
 + add usefull gnome extensions
 + give idea
