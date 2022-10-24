@@ -18,15 +18,24 @@ After next to the login script chose GNOME option to change desktop environement
 ```
 
 <h2>after install</h2>
-:oui~1: **aprés l'install : **
+
 pour les buttons maximize et minimize: 
-```gsettings set org.gnome.desktop.wm.preferences button-layout ":minimize,maximize,close"```
+```
+gsettings set org.gnome.desktop.wm.preferences button-layout ":minimize,maximize,close"
+```
 
 pour les icones sur le desktop:
-```sudo dnf install nemo```
-```sudo emacs ~/.config/autostart/nemo-autostart-with-gnome.desktop```
+```
+sudo dnf install nemo
+```
+```
+sudo emacs ~/.config/autostart/nemo-autostart-with-gnome.desktop
+```
 ou nano :
-```sudo nano ~/.config/autostart/nemo-autostart-with-gnome.desktop```
+```
+sudo nano ~/.config/autostart/nemo-autostart-with-gnome.desktop
+```
+
 et copier coller : 
 ```[Desktop Entry]
 Type=Application
