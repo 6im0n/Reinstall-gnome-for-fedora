@@ -8,7 +8,7 @@ last time tested:
 
 
 ```
-your computeur will be restarted 15seconds after the installation success
+your computer will be restarted 15seconds after the installation success
 ```
 
 <h2>Before start</h2>
