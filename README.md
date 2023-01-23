@@ -17,6 +17,12 @@ After next to the login script chose GNOME option to change desktop environement
 
 <h2>after install</h2>
 
+Installation of Nvidia driver
+
+```dnf install dnf-plugins-core -y
+dnf copr enable t0xic0der/nvidia-auto-installer-for-fedora -y
+dnf install nvautoinstall -y```
+
 pour les buttons maximize et minimize: 
 ```
 gsettings set org.gnome.desktop.wm.preferences button-layout ":minimize,maximize,close"
