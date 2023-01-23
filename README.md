@@ -2,7 +2,7 @@
 Script to reinstall gnome desktop graphic environement for dump of epitech fedora.
  
 last time tested: 
-17/10/2022
+23/01/2023
 
 <h2>Before start</h2>
 
@@ -10,8 +10,6 @@ last time tested:
 ```
 your computer will be restarted 15seconds after the installation success
 ```
-
-<h2>Before start</h2>
 
 ```
 After next to the login script chose GNOME option to change desktop environement.
