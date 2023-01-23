@@ -19,7 +19,8 @@ After next to the login script chose GNOME option to change desktop environement
 
 Installation of Nvidia driver
 
-```dnf install dnf-plugins-core -y
+```
+dnf install dnf-plugins-core -y
 dnf copr enable t0xic0der/nvidia-auto-installer-for-fedora -y
 dnf install nvautoinstall -y
 ```
@@ -30,7 +31,9 @@ gsettings set org.gnome.desktop.wm.preferences button-layout ":minimize,maximize
 ```
 pour desactiver les son (clavier)
 
-```gsettings set org.gnome.desktop.sound event-sounds false```
+```
+gsettings set org.gnome.desktop.sound event-sounds false
+```
 
 pour les icones sur le desktop:
 ```
