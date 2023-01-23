@@ -24,6 +24,8 @@ dnf install dnf-plugins-core -y
 dnf copr enable t0xic0der/nvidia-auto-installer-for-fedora -y
 dnf install nvautoinstall -y
 ```
+more detail at : https://github.com/t0xic0der/nvidia-auto-installer-for-fedora-linux
+
 
 pour les buttons maximize et minimize: 
 ```
