@@ -48,13 +48,18 @@ NoDisplay=true
 
 <h2>extensions gnome : (WIP)</h2>
 
-https://extensions.gnome.org/extension/6/applications-menu/
+https://extensions.gnome.org/extension/1160/dash-to-panel/
 
-https://extensions.gnome.org/extension/615/appindicator-support/
-
-https://extensions.gnome.org/extension/906/sound-output-device-chooser/
+https://extensions.gnome.org/extension/3193/blur-my-shell/
 
 https://extensions.gnome.org/extension/1160/dash-to-panel/
+
+https://extensions.gnome.org/extension/4470/media-controls/
+
+https://extensions.gnome.org/extension/841/freon/
+
+https://extensions.gnome.org/extension/1085/simple-net-speed/
+
 
 
 things to do :
