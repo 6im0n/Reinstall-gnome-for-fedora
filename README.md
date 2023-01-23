@@ -21,6 +21,9 @@ pour les buttons maximize et minimize:
 ```
 gsettings set org.gnome.desktop.wm.preferences button-layout ":minimize,maximize,close"
 ```
+pour desactiver les son (clavier)
+
+```gsettings set org.gnome.desktop.sound event-sounds false```
 
 pour les icones sur le desktop:
 ```
