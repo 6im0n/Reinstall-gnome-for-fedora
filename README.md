@@ -1,21 +1,21 @@
 # Gnome for epitech install ✨
 Script to reinstall gnome desktop graphic environement for dump of epitech fedora.
  
-last time tested: 
+Last time tested: 
 23/01/2023
 
 <h2>Before start</h2>
 
 
 ```
-your computer will be restarted 15seconds after the installation success
+Your computer will be restarted 15seconds after the installation success
 ```
 
 ```
 After next to the login script chose GNOME option to change desktop environement.
 ```
 
-<h2>after install</h2>
+<h2>After install</h2>
 
 Installation of Nvidia driver
 
@@ -24,32 +24,32 @@ dnf install dnf-plugins-core -y
 dnf copr enable t0xic0der/nvidia-auto-installer-for-fedora -y
 dnf install nvautoinstall -y
 ```
-more detail at : https://github.com/t0xic0der/nvidia-auto-installer-for-fedora-linux
+More detail at : https://github.com/t0xic0der/nvidia-auto-installer-for-fedora-linux
 
 
-pour les buttons maximize et minimize: 
+Pour les buttons maximize et minimize: 
 ```
 gsettings set org.gnome.desktop.wm.preferences button-layout ":minimize,maximize,close"
 ```
-pour desactiver les son (clavier)
+Pour desactiver les son (clavier)
 
 ```
 gsettings set org.gnome.desktop.sound event-sounds false
 ```
 
-pour les icones sur le desktop:
+Pour les icones sur le desktop:
 ```
 sudo dnf install nemo
 ```
 ```
 sudo emacs ~/.config/autostart/nemo-autostart-with-gnome.desktop
 ```
-ou nano :
+Ou nano :
 ```
 sudo nano ~/.config/autostart/nemo-autostart-with-gnome.desktop
 ```
 
-et copier coller : 
+Et copier coller : 
 ```[Desktop Entry]
 Type=Application
 Name=Nemo
@@ -61,7 +61,7 @@ X-GNOME-AutoRestart=true
 NoDisplay=true
 ```
 
-<h2>extensions gnome : (WIP)</h2>
+<h2>Extensions gnome : (WIP)</h2>
 
 https://extensions.gnome.org/extension/1160/dash-to-panel/
 
@@ -77,6 +77,6 @@ https://extensions.gnome.org/extension/1085/simple-net-speed/
 
 
 
-things to do :
+Things to do :
 + add usefull gnome extensions
 + give idea
