@@ -79,4 +79,5 @@ https://extensions.gnome.org/extension/1085/simple-net-speed/
 
 Things to do :
 + add usefull gnome extensions
++ automatic installer for the basic extension (https://github.com/brunelli/gnome-shell-extension-installer)
 + give idea
