@@ -23,6 +23,10 @@ Installation of Nvidia driver
 dnf install dnf-plugins-core -y
 dnf copr enable t0xic0der/nvidia-auto-installer-for-fedora -y
 dnf install nvautoinstall -y
+sudo nvautoinstall rpmadd
+sudo nvautoinstall nvrepo
+sudo nvautoinstall driver
+sudo nvautoinstall plcuda
 ```
 More detail at : https://github.com/t0xic0der/nvidia-auto-installer-for-fedora-linux
 
