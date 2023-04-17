@@ -71,8 +71,6 @@ https://extensions.gnome.org/extension/1160/dash-to-panel/
 
 https://extensions.gnome.org/extension/3193/blur-my-shell/
 
-https://extensions.gnome.org/extension/1160/dash-to-panel/
-
 https://extensions.gnome.org/extension/4470/media-controls/
 
 https://extensions.gnome.org/extension/841/freon/
