@@ -29,4 +29,4 @@ echo -e "\e[32m        |            \e[33m                    \e[32m   |"
 echo -e "\e[32m        |___________________________________|"
 echo -e '\033[0m'
 sleep 15s
-sudo reboot now 
+
