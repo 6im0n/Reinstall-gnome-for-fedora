@@ -73,6 +73,15 @@ https://extensions.gnome.org/extension/3193/blur-my-shell/
 
 https://extensions.gnome.org/extension/4470/media-controls/
 
+https://extensions.gnome.org/extension/4033/x11-gestures/
+with 
+```
+$ dnf install touchegg
+# You also need to manually start the service
+$ sudo systemctl start touchegg
+$ sudo systemctl enable touchegg
+```
+
 https://extensions.gnome.org/extension/841/freon/
 
 https://extensions.gnome.org/extension/1085/simple-net-speed/
