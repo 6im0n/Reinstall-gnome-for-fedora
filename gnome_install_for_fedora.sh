@@ -28,5 +28,16 @@ echo -e "\e[32m        |           \e[33m                    \e[32m    |"
 echo -e "\e[32m        |            \e[33m                    \e[32m   |"
 echo -e "\e[32m        |___________________________________|"
 echo -e '\033[0m'
-sleep 15s
-
+echo "Press Enter to reboot the system..."
+read
+sleep 1s
+echo "Rebooting... in 4 sec"*
+sleep 1s
+echo "Rebooting... in 3 sec"
+sleep 1s
+echo "Rebooting... in 2 sec"
+sleep 1s
+echo "Rebooting... in 1 sec"
+sleep 1s
+echo "Rebooting..."
+sudo reboot
