@@ -74,6 +74,7 @@ https://extensions.gnome.org/extension/3193/blur-my-shell/
 https://extensions.gnome.org/extension/4470/media-controls/
 
 https://extensions.gnome.org/extension/4033/x11-gestures/
+
 with 
 ```
 $ dnf install touchegg
