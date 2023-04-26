@@ -1,8 +1,14 @@
 # Gnome for epitech install ✨
 Script to reinstall gnome desktop graphic environement for dump of epitech fedora.
- 
-Last time tested: 
-23/01/2023
+
+```
+chmod +x gnome_install_for_fedora.sh
+```
+and to run it
+
+```
+./gnome_install_for_fedora.sh"
+```
 
 <h2>Before start</h2>
 
