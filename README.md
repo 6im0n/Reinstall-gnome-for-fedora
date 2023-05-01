@@ -4,7 +4,7 @@ Script to reinstall gnome desktop graphic environement for dump of epitech fedor
 ```
 chmod +x gnome_install_for_fedora.sh
 ```
-and to run it
+And to run it
 
 ```
 ./gnome_install_for_fedora.sh"
