@@ -23,6 +23,10 @@ After next to the login script chose GNOME option to change desktop environement
 
 <h2>After install</h2>
 
+Usefull tools
+
+https://github.com/erpalma/throttled
+
 Installation of Nvidia driver
 
 ```
